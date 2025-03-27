@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: py-tt-radin-test-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/py-tt-radin-test
